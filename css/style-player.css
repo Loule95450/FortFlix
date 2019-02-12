@@ -1,0 +1,23 @@
+.mfp-hide {
+	display: none !important;
+}
+
+.watch-button {
+	border-color: white;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	display: inline-block;
+}
+
+button.mfp-hide {
+	overflow: visible;
+	cursor: pointer;
+	background: #fff;
+	border: 0;
+	-webkit-appearance: none;
+	display: block;
+	outline: 0;
+	padding: 0;
+	z-index: 1048;
+	box-shadow: none;
+}

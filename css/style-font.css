@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto');
+
+body {
+	font-family: 'Roboto', 'Bitter', sans-serif;
+}
+
+;pink-title {
+	color: #f44336
+}
