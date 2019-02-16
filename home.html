@@ -55,6 +55,14 @@
   text-decoration: none;
   color: #fff;
 }
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(img/hqdefaultLootyToonsLlama.jpg);
+  background-size: cover;
+}
 	</style>
 
 </head>
@@ -76,6 +84,12 @@
    </ul> 
   </header>
 	<br><br>
+
+  <!--Video BackGround-->
+
+  <video autoplay loop poster="img/hqdefaultLootyToonsLlama.jpg" id="bgvid">
+  <source src="https://cdn2.unrealengine.com/Fortnite%2FCreativeMode%2FCM_CreativeBroll_Loop5_mp4-04902fe31f33148ef4444fa418f64de0150342ac.mp4" type="video/mp4">
+</video>
 
 	<!--Caterory title-->
 	<h1 id="header-what-s-new"><b>What's new on Fortflix ?</b></h1>
