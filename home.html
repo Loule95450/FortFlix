@@ -55,14 +55,6 @@
   text-decoration: none;
   color: #fff;
 }
-
-video#bgvid {
-  position: fixed; right: 0; bottom: 0;
-  min-width: 100%; min-height: 100%;
-  width: auto; height: auto; z-index: -100;
-  background: url(img/bg.jpg);
-  background-size: cover;
-}
 	</style>
 
 </head>
@@ -85,17 +77,44 @@ video#bgvid {
   </header>
 	<br><br>
 
-  <!--Video BackGround-->
-
-  <video autoplay loop poster="img/bg.jpg" id="bgvid">
-  <source src="video/videobg.mp4" type="video/mp4">
-</video>
-
 	<!--Caterory title-->
 	<h1 id="header-what-s-new"><b>What's new on Fortflix ?</b></h1>
 	 <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
+
+      <!--Slide-->
+      <div class="swiper-slide">
+        <div class="image-box">
+          <img src="img/hqdefaultfortnite-driftboard.jpg">
+        </div>
+        <div class="image-box-title">
+          <!--Title-->
+          <h3>Fortnite - Driftboard | A Fortnite Trailer
+            <br>
+            <!--Creator-->
+            <span><a href="profile/fortnite.html"><i class="fas fa-user-check"></i> Fortnite</a></span><br><br>
+            <!--Button-->
+            <a href="#d06pGjGzoSc" class="watch-button watch-more d06pGjGzoSc"><b><i class="fas fa-play-circle"></i> - Watch Trailer</b></a>
+            <br><br>
+            <!--Stars :
+        - Good <i class="fas fa-star"></i>
+        - Humm <i class="fas fa-star-half-alt"></i>
+        - No ! <i class="far fa-star"></i>
+            -->
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></h3><br>
+            <!--Lang-->
+            <p>Available in : For all - All languages</p>
+            <!--js video player-->
+            <script type="text/javascript">
+  $('.d06pGjGzoSc').magnificPopup({
+    src: '#d06pGjGzoSc',
+    type: 'inline'
+});
+
+  </script>
+        </div>
+      </div>
 
       <!--Slide-->
       <div class="swiper-slide">
@@ -529,6 +548,13 @@ video#bgvid {
 
 
   <!--Add videos-->
+  <div id="d06pGjGzoSc" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
+    
+    <!--iFrame Youtube-->
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/d06pGjGzoSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div id="BieXClQlm5w" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
+
   <div id="95Ux9GXwjmc" class="mfp-hide" style="max-width: 75%; margin: 0 auto;">
     
     <!--iFrame Youtube-->
